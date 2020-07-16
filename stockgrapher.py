@@ -19,4 +19,5 @@ for pnl in pnls:
 # print(result)
 
 pd.DataFrame(result).T.plot(kind='line')
+plt.grid()
 plt.show()
